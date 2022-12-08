@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbe06164a1e6dbe824a3390b5d55e985",
+    "content-hash": "d75b7eb11e08907388788ffc075ca62a",
     "packages": [
         {
             "name": "brick/math",
@@ -4769,6 +4769,24 @@
                 }
             ],
             "time": "2022-01-24T18:55:24+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wpsynchro",
+            "version": "1.9.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpsynchro/",
+                "reference": "tags/1.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpsynchro.1.9.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpsynchro/"
         },
         {
             "name": "wpackagist-theme/twentytwentythree",
